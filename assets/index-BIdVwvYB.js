@@ -24415,7 +24415,7 @@ const vg = [
     return (
       S.useEffect(() => {
         const i = new Image();
-        (i.src = "/images/hero-animated.webp"),
+        (i.src = "/images/hero.png"),
           (i.onload = () => {
             t((s) => (s === "video" ? "video" : "animated-webp"));
           });
@@ -24445,7 +24445,7 @@ const vg = [
             transition: { duration: 1.5 },
             children: w.jsx("img", {
               ref: r,
-              src: "/images/hero-animated.webp",
+              src: "/images/hero.png",
               alt: "",
               className: "w-full h-full object-cover",
               "aria-hidden": "true",
